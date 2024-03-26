@@ -1,0 +1,140 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IFeeController",
+  "sourceName": "contracts/interface/IFeeController.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_pair",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256[2]",
+          "name": "_amount",
+          "type": "uint256[2]"
+        },
+        {
+          "internalType": "uint8[2]",
+          "name": "_isBuy",
+          "type": "uint8[2]"
+        }
+      ],
+      "name": "collectFeeReward",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_price",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_user",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_pair",
+          "type": "address"
+        },
+        {
+          "internalType": "uint8",
+          "name": "_isBuy",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tickFeeID",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "craeteTickFeeID",
+          "type": "bool"
+        }
+      ],
+      "name": "createPosition",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_pair",
+          "type": "address"
+        },
+        {
+          "internalType": "uint8",
+          "name": "_isBuy",
+          "type": "uint8"
+        }
+      ],
+      "name": "getCurrentTickFee",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_user",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_pair",
+          "type": "address"
+        },
+        {
+          "internalType": "uint8",
+          "name": "_isBuy",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tickFeeID",
+          "type": "uint256"
+        }
+      ],
+      "name": "withdrawnPosition",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
